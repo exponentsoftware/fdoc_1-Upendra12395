@@ -3,3 +3,4 @@ const sentence = `%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is 
 
 const cleanText = (rawText) => rawText.replace(/[,;#%&@!$']/g, "");
 console.log(cleanText(sentence)); //`I am a teacher and I love teaching. There is nothing as more rewarding as educating and empowering people. I found teaching more interesting than any other jobs. Does this motivate you to be a teacher?`
+ 
